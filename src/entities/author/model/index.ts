@@ -1,0 +1,5 @@
+export { createAuthor, deleteAuthor, getAuthorById, getAuthors, updateAuthor } from './authors'
+export { getAuthorsModule } from './module'
+export { requestAuthorsList, requestDeleteAuthor } from './state'
+export type { AuthorsState } from './state'
+export type { Author, AuthorUpsertPayload } from './types'
